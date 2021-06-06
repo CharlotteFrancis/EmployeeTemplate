@@ -14,9 +14,8 @@ const render = require('./lib/htmlRenderer')
 let employees = []
 
 // write file
-
 const output = _ => {
-  fs.writeFile('./output/output.html', render(employees), err => {
+  fs.writeFile(outputPath, render(employees), err => {
     if (err) {
       console.log(err)
     }
