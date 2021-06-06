@@ -11,7 +11,7 @@ const outputPath = path.join(OUTPUT_DIR, 'team.html')
 const render = require('./lib/htmlRenderer')
 
 // array of employees
-let employees = []
+const employees = []
 
 // write file
 const output = _ => {
